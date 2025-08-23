@@ -1,67 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: darkblue;
-            color: white;
-            font-family: Arial, sans-serif;
-            
-        }
-        div{
-            width: 300px;
-            height: 300px;
-            background-color: lightblue;
-            margin:0 auto;
-        }
-        h2{
-            text-align: center;
-            color: white;
-            font-size: large;
-        }
-        h3{
-            text-align: center;
-            font-size: large;
-            
-        }
-        input{
-            width: 80%;
-            padding-left: 20px;
-            margin: 10px auto;
-            display: block;
-            border: none;
-            border-radius: 5px;
-
-
-        }
-      
-
-    </style>
+    <title>PDV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        
-    <h1 id="titulo">PDV LOGIN</h1>
+    <h1>PDV WEB</h1>
+    <p>prototipo</p>
+    <div>
+        <h2>LOGIN</h2>
+    <h2>Usuário</h2>
+    <input type="text" class="usuario" placeholder="Digite seu usuario">
+    <h2>Senha</h2>
+    <input type="password" class="senha" placeholder="Digite sua senha">
+    <br>
+        <label for="TURNO">
+        Turno:
+        <select name="TURNO" id="TURNO">
+            <option value="MANHA">Manhã</option>
+            <option value="TARDE">Tarde</option>
+            <option value="NOITE">Noite</option>
+        </select>
     
-   <div>
-    <H2>LOGIN</H2>
-    <!--Usuario-->
-    <h3>usuario</h3>
-         <input type="text" placeholder="digite seu Usuario">
-    <!--Senha-->
-    <h3>senha</h3>
-    <input type="password" placeholder="digite sua Senha">
-    <!--Turno-->
-    <h3>Turno</h3>
-    <details id="turno">
-        <summary>Escolha seu turno</summary>
-        <p>1 Turno</p>
-        <p>2 Turno</p>
-        <p>3 Turno</p>
-    </details>
-   </div>
+    </label>
+    <br>
+    <a href="pagina.html">
+        <button>LOGIN</button>
+    </a>
+    
+    </div>
 </body>
 </html>

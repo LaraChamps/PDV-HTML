@@ -46,12 +46,50 @@ i{
     display: flex;
     gap: 10px;
     color: black;
-    font-size: 35px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: color 0.3s ease;
 }
+i:hover{
+    color: rgb(4, 138, 191);w}
+
 #logo{
-    width: 100px;
+    width:100px;
     height: 50px;
     position: fixed;
     top: 150px;
     right: 700px;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    color: white;
+    font-weight: bold;
+    font-weight: bolder;
+    text-align: center;
+    ;
+
+}
+#painel{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    background-color: #013440;
+    align-items: center;
+    justify-content: center;
+
+}
+#options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    background-color:#013440;
+    transition: background-color 0.3s ease;
+}
+#options:hover{
+    background-color: rgb(4, 138, 191);
+    cursor: pointer;
 }
